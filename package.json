@@ -1,0 +1,18 @@
+{
+  "name": "rxjs-tour",
+  "version": "1.0.0",
+  "main": "index.js",
+  "repository": "git@github.com:rainy-me/rxjs-tour.git",
+  "author": "rainy-me <github@rainy.me>",
+  "license": "MIT",
+  "scripts": {
+    "dev": "parcel public/index.html"
+  },
+  "dependencies": {
+    "rxjs": "^6.5.3",
+    "typescript": "^3.7.3"
+  },
+  "devDependencies": {
+    "parcel": "^2.0.0-alpha.3.2"
+  }
+}
