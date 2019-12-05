@@ -6,13 +6,17 @@
   "author": "rainy-me <github@rainy.me>",
   "license": "MIT",
   "scripts": {
-    "dev": "parcel public/index.html"
+    "dev": "parcel public/index.html",
+    "lint": "eslint src/*.ts"
   },
   "dependencies": {
     "rxjs": "^6.5.3",
     "typescript": "^3.7.3"
   },
   "devDependencies": {
-    "parcel": "^2.0.0-alpha.3.2"
+    "@whatasoda/eslint-config": "^1.3.7",
+    "@whatasoda/tsconfig": "^1.0.3",
+    "parcel": "^2.0.0-alpha.3.2",
+    "prettier": "^1.19.1"
   }
 }
